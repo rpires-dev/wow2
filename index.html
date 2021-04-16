@@ -3,13 +3,23 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
   <title>WE OWN WE</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./custom.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
 </head>
+<!-- <style>
+  @media only screen and (max-width: 600px) {
+    #item {
+      font-size: xx-large;
+      margin: 0.325rem 0;
+    }
+  }
+</style> -->
 
 <body>
   <!-- partial:index.partial.html -->
@@ -21,30 +31,34 @@
           </p>
         </div>
         <div class="column-xs-3 column-md-4">
-          <a href="#" class="toggle-nav">Menu <i class="ion-navicon-round"></i></a>
+          <a href="#" class="toggle-nav"> <i class="ion-navicon-round"></i></a>
           <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Social</a></li>
+            <li><a id="item" href="#">Sobre</a></li>
+            <li><a id="item" href="#">Contato</a></li>
+            <li><a id="item" href="#">Social</a></li>
           </ul>
         </div>
       </div>
     </div>
   </nav>
   <main class="intro-section">
+
+    <!-- Hero -->
     <div class="container">
       <div class="grid">
         <div class="column-xs-12">
           <ul class="slider">
+
             <li class="slider-item active">
               <div class="grid vertical">
                 <div class="column-xs-12 column-md-2 hide-mobile">
                   <div class="intro">
                     <a href="#">
-                      <h1 class="title"><span class="underline">Explore Tokyo</span></h1>
+                      <h1 class="title"><span class="underline">WeOwnWe Records</span></h1>
                     </a>
                   </div>
                 </div>
+
                 <div class="column-xs-12 column-md-10">
                   <div class="image-holder">
                     <img src="https://source.unsplash.com/cddaZDt6uRw">
@@ -61,8 +75,14 @@
                     </div>
                   </div>
                 </div>
+
+
               </div>
             </li>
+
+
+
+
             <li class="slider-item">
               <div class="grid vertical">
                 <div class="column-xs-12 column-md-2 hide-mobile">
@@ -145,6 +165,7 @@
               </div>
             </li>
           </ul>
+          <!-- Controls -->
           <div class="grid">
             <div class="column-xs-12">
               <div class="controls">
