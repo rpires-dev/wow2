@@ -1,0 +1,208 @@
+textarea {
+	resize: none;
+}
+.form-label {
+	font-size: 12px;
+	color: #000000;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;
+}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+.form-control:focus {
+	box-shadow: none;
+	border-color: #000000;
+}
+.js-hide-label {
+	opacity: 0; 	
+}
+.js-unhighlight-label {
+	color: #999 
+}
+.btn-start-order {
+	background: 0 0 #ffffff;
+    border: 1px solid #2f323a;
+    border-radius: 3px;
+    color: #2f323a;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: inherit;
+    margin: 30px 0;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+	border-color: #5e9bfc;
+	color: #5e9bfc;
+}
+
+.toggle-list li:last-of-type {
+    margin-left: 20px;
+  }
+
+  .heroDescription{
+	font-size: 1.2em;
+    margin-top: 1em;
+
+  }
+
+  
+  
+  a:hover {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .gray {
+    color: #a5a5a5;
+  }
+
+  .team {
+    margin: 40px;
+  }
+
+  .team-member {
+    margin: 15px 0;
+    padding: 0;
+  }
+
+  .team-member figure {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+  .team-member figure img {
+    min-width: 100%;
+  }
+
+  .team-member figcaption p {
+    font-size: 16px;
+  }
+
+  .team-member figcaption ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .team-member figcaption ul {
+    visibility: visible;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .team-member figcaption ul li {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .team-member h4 {
+    margin: 10px 0 0;
+    padding: 0;
+  }
+
+  .team-member figcaption {
+    padding: 50px;
+    color: transparent;
+    background-color: transparent;
+    position: absolute;
+    z-index: 996;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .team-member figure:hover figcaption {
+    visibility: visible;
+    color: #fff;
+    background: rgba(230, 78, 62, 0.9);
+    /* Primary color, can be changed via colors.css */
+
+    height: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .team-member figure:hover figcaption ul li a:hover {
+    color: rgba(49, 49, 49, .97);
+  }
+
+  .team-member figure img {
+    -webkit-transform: scale(1) rotate(0) translateY(0);
+    -moz-transform: scale(1) rotate(0) translateY(0);
+    -o-transform: scale(1) rotate(0) translateY(0);
+    -ms-transform: scale(1) rotate(0) translateY(0);
+    transform: scale(1) rotate(0) translateY(0);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .team-member figure:hover img {
+    -webkit-transform: scale(1.1) rotate(1deg) translateY(12px);
+    -moz-transform: scale(1.1) rotate(1deg) translateY(12px);
+    -o-transform: scale(1.1) rotate(1deg) translateY(12px);
+    -ms-transform: scale(1.1) rotate(1deg) translateY(12px);
+    transform: scale(1.1) rotate(1deg) translateY(12px);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  .center{
+	  text-align: center;
+	  margin: 1em;
+  }
+  .teamSocial i {
+	  color: white;
+
+
+  }
+
+         /*
+  AUTO GRID
+  Set the minimum item size with `--auto-grid-min-size` and you'll
+  get a fully responsive grid with no media queries.
+*/
+.auto-grid-1 {
+	--auto-grid-min-size: 27rem;
+
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+	grid-gap: 1rem;
+  }
+
+
+  /* Presentational styles */
+
+
+
+  .auto-grid-1 li {
+	padding: 1rem 1rem;
+	text-align: left;
+	font-size: 1.2rem;
+	/* background: #eb4d4b; */
+	color: #8d8d8d;
+  }
